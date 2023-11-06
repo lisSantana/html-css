@@ -1,0 +1,28 @@
+body{
+    background-image: ('images/espaço.jpg');
+    background-position: center center;
+}
+
+.background-div {
+    width: 100%; /* Define a largura da div */
+    height: 990px; /* Define a altura da div */
+    background-image: url('images/espaco.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a div */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    border: 1px;
+    padding: 0%;
+}
+
+.container {
+    position: relative;
+}
+
+img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Para garantir que a imagem esteja sobreposta ao plano de fundo */
+    width: 310px; /* Ajuste a largura conforme necessário */
+    height: 310px;
+}
