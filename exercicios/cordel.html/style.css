@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fonteheader';
+    src: url('fontes/inlanders/Inlanders\ Demo.otf')
+    
+}
+header{
+ font-family: fonteheader;
+ background-color: black;
+ color: antiquewhite;
+ margin: 0%;
+ border: 10px;
+ padding: 18px;
+content: 1000px;
+}
+
+body{
+text-align: center;
+margin: 0%;
+border: 100px;
+}
+
+a:link{
+color: gray; 
+}
+
+a:visited{
+color: #c4b6b6;
+}
+
+a:hover{
+color: white;
+text-decoration: double;
+}
+
+a:active{
+color:burlywood ;
+}
+
+.container{
+text-align: center center;
+text-decoration: none;
+}
+
+
+
+footer{
+background-color: black;
+ color: antiquewhite;
+ 
+}
