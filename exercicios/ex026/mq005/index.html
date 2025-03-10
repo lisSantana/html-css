@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Responsivo</title>
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>LisLand</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Soluções</a></li>
+                <li><a href="#">Orçamentos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Depoimentos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+
+            <h2>Seja bem vindo a LisLand</h2>
+
+            <p>No coração da inovação e do comprometimento, a LisLand se destaca como líder em soluções tecnológicas e
+                serviços personalizados. Fundada em 2010, nossa empresa nasceu com a missão de transformar ideias em
+                realidade, proporcionando aos nossos clientes uma experiência única e diferenciada.</p>
+
+            <h3>Nossa Missão</h3>
+
+            <p>
+                Na LisLand, nossa missão é fornecer soluções tecnológicas inovadoras que impulsionem o crescimento e a
+                eficiência de nossos clientes. Acreditamos que a tecnologia deve ser acessível a todos, e trabalhamos
+                incansavelmente para criar produtos e serviços que atendam às necessidades específicas de cada cliente.
+            </p>
+
+            <h3>Nossos Valores</h3>
+
+            <p>
+            <dl>
+                <dt>
+                    <strong>Excelência:</strong> Buscamos a perfeição em tudo o que fazemos, garantindo a entrega de
+                    produtos e serviços da
+                    mais alta qualidade.
+                </dt> <br>
+                <dt>
+                    <strong>Inovação:</strong> Estamos constantemente explorando novas ideias e tecnologias para
+                    oferecer
+                    soluções de ponta.
+                </dt><br>
+                <dt>
+                    <strong>Compromisso:</strong> Valorizamos a confiança de nossos clientes e nos dedicamos a cumprir
+                    nossas promessas com
+                    integridade e transparência.
+                </dt><br>
+                <dt>
+                    <strong>Colaboração:</strong> Acreditamos que o trabalho em equipe e a parceria com nossos clientes
+                    são
+                    essenciais para o
+                    sucesso.
+                </dt>
+            </dl>
+            </p>
+
+            <h3>Nossos Serviços</h3>
+            <h4>Oferecemos uma ampla gama de serviços que incluem:</h4>
+            <p>
+            <dl>
+                <dt> <strong>Desenvolvimento de Software:</strong> Criação de aplicações personalizadas que atendem às
+                    necessidades
+                    específicas de cada negócio.</li>
+                <dt><br>
+                    <strong>Consultoria Tecnológica:</strong> Auxiliamos empresas a implementarem as melhores práticas e
+                    tecnologias para otimizar seus processos.
+                </dt><br>
+                <dt>
+                    <strong>Soluções em Nuvem:</strong> Fornecemos soluções seguras e escaláveis para armazenamento e
+                    gerenciamento de dados.
+                </dt><br>
+                <dt>
+                    <strong>Suporte Técnico:</strong> Nossa equipe de especialistas está sempre pronta para oferecer
+                    suporte e resolver qualquer problema técnico.
+                </dt>
+            </dl>
+            </p>
+            <h2>
+                Por Que Escolher a LisLand?
+            </h2>
+            <p>
+                Escolher a LisLand significa optar por uma empresa que coloca o cliente em primeiro lugar. <br>
+                Nosso compromisso com a excelência e a inovação garante que você receberá soluções tecnológicas que
+                realmente
+                fazem a diferença. Com uma equipe talentosa e dedicada, estamos prontos para enfrentar qualquer desafio
+                e ajudar sua empresa a alcançar novos patamares de sucesso.
+                <br>
+                Venha conhecer a LisLand e descubra como podemos transformar seu negócio com soluções tecnológicas
+                inovadoras e personalizadas. Juntos, podemos construir um futuro melhor e mais eficiente. 🌟
+            </p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
+
 </html>
