@@ -1,0 +1,26 @@
+@charset "UTFT-8";
+
+/*Celulares: até 600px
+Tablets: 768px até 992px
+Desktops: 992px até 1200px
+Grandes telas (TVs): acima de 1200px
+Configuração de Media Queries:*/
+
+@media screen and (min-width: 992px){
+    span#burguer{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+    nav > ul > li{
+        display: inline-block;
+        
+    }
+
+    main{
+        width: 807px ;
+    }
+}
