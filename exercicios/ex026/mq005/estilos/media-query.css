@@ -6,6 +6,23 @@ Desktops: 992px até 1200px
 Grandes telas (TVs): acima de 1200px
 Configuração de Media Queries:*/
 
+@media print {
+    /*Impressão*/
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com ';
+        text-decoration: overline;
+    }
+
 @media screen and (min-width: 992px){
     span#burguer{
         display: none;
@@ -23,4 +40,4 @@ Configuração de Media Queries:*/
     main{
         width: 807px ;
     }
-}
+} }
